@@ -4,7 +4,7 @@ metadata:
   namespace: kustomization-test
   name: myapp-deployment
 spec:
-  replicas: 2 # increase the number of replicas.
+  replicas: 3 # increase the number of replicas.
   template:
     spec:
       containers:
